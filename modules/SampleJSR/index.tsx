@@ -25,6 +25,7 @@ export { fields } from "./fields.js";
 export const meta = {
   label: "Sample JSR Module",
   host_template_types: ["PAGE"],
+  global: false,
 };
 
 export const defaultModuleConfig = {
