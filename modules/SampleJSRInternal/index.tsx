@@ -22,13 +22,6 @@ export const Component = ({ fieldValues, hublParameters = {} }) => {
 
 export { fields } from "./fields.js";
 
-export const meta = {
-  /* Import meta */
-  label: "Sample JSR Module",
-  host_template_types: ["PAGE"],
-  global: false,
-};
-
 export const defaultModuleConfig = {
   moduleName: "sample_jsr",
   version: 0,
