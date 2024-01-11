@@ -1,5 +1,6 @@
 import { Island } from "@hubspot/cms-components";
-import MyButton from "./InteractiveComponents/index.js?island";
+import MyButton from "./Island/index.js?island";
+// import "./global-samplejsr.css";
 import styles from "./samplejsr.module.css";
 
 export const Component = ({ fieldValues, hublParameters = {} }) => {
@@ -20,3 +21,8 @@ export const Component = ({ fieldValues, hublParameters = {} }) => {
 };
 
 export { fields } from "./fields.js";
+
+// export const defaultModuleConfig = {
+//   moduleName: "sample_jsr",
+//   version: 0,
+// };
