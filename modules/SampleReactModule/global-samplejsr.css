@@ -3,6 +3,6 @@
 *  and will be applied globally. Helpful to reduce a bunch of duplicate styles per module.
 */
 
-.sampleJSRWrapper {
+.sampleReactModuleWrapper {
   border: 5px solid #6c6685;
 }
